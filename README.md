@@ -80,5 +80,6 @@ http://localhost:8501
 ```
 ## 👤 Author
 
-Zihad
+Zihad,
+
 MSc Data Science, TU Dortmund
