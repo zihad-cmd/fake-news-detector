@@ -12,11 +12,11 @@ from nltk.stem import WordNetLemmatizer
 # =========================
 
 model = joblib.load(
-    "/Users/zihad/Desktop/Project/News_detection/fake_news_model.pkl"
+    "models/fake_news_model.pkl"
 )
 
 vectorizer = joblib.load(
-    "/Users/zihad/Desktop/Project/News_detection/tfidf_vectorizer.pkl"
+    "models/tfidf_vectorizer.pkl"
 )
 
 # =========================
