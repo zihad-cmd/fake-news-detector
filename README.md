@@ -77,3 +77,8 @@ streamlit run app.py
 Open browser:
 ```
 http://localhost:8501
+```
+## 👤 Author
+
+Zihad
+MSc Data Science, TU Dortmund
