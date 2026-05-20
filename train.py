@@ -35,8 +35,8 @@ nltk.download('omw-1.4')
 
 # ========= LOAD DATASETS =========
 
-fake_df = pd.read_csv('/Users/zihad/Desktop/Project/News_detection/Fake.csv')
-true_df = pd.read_csv('/Users/zihad/Desktop/Project/News_detection/True.csv')
+fake_df = pd.read_csv('Fake.csv')
+true_df = pd.read_csv('True.csv')
 
 # ========= CREATE LABELS =========
 
@@ -171,12 +171,12 @@ else:
 
 joblib.dump(
     model,
-    "/Users/zihad/Desktop/Project/News_detection/fake_news_model.pkl"
+    "fake_news_model.pkl"
 )
 
 joblib.dump(
     vectorizer,
-    "/Users/zihad/Desktop/Project/News_detection/tfidf_vectorizer.pkl"
+    "tfidf_vectorizer.pkl"
 )
 
 
