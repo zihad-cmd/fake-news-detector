@@ -51,3 +51,29 @@ Accuracy achieved:
 
 ```text
 98.5%
+```
+## Installation
+
+Clone the repository:
+```
+git clone YOUR_REPOSITORY_URL
+```
+Move into the project folder:
+```
+cd fake-news-detector
+```
+Install dependencies:
+```
+pip install -r requirements.txt
+```
+Run the Training Script
+```
+python train.py
+```
+Run the Streamlit App
+```
+streamlit run app.py
+```
+Open browser:
+```
+http://localhost:8501
